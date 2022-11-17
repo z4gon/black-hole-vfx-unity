@@ -1,53 +1,30 @@
-# Unity Template Project for URP
+# Black Hole VFX
 
-{{YOUR_PROJECT_DESCRIPTION_HERE}} in **Unity 2021.3.10f1**
-
-### References
-
-- [Ref](https://adrianb.io/2014/08/09/perlinnoise.html)
-- [Ref](https://adrianb.io/2014/08/09/perlinnoise.html)
+Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the URP in **Unity 2021.3.10f1**
 
 ## Screenshots
 
-![Gif](./docs/1.gif)
-![Gif](./docs/1.gif)
+### Table of Content
 
-## Features
+- [Implementation](#implementation)
+  - [Swirl Distortion](#swirl-distortion)
+  - [Fresnel Sphere](#fresnel-sphere)
+  - [Swirl Texture](#swirl-texture)
+  - [Swirl Particle System](#swirl-particle-system)
+  - [Rotating Particles VFX Graph](#rotating-particles-vfx-graph)
 
-- [Feature](#feature)
-- [Feature](#feature)
-- [Feature](#feature)
+### References
 
----
+- [Black Hole VFX tutorial by Gabriel Aguiar](https://www.youtube.com/watch?v=FlE8e1JwVzs)
 
-## Feature
+## Implementation
 
-1. Implementation detail.
-1. Implementation detail.
-1. Implementation detail.
+### Swirl Distortion
 
-![Gif](./docs/1.gif)
-![Gif](./docs/1.gif)
+### Fresnel Sphere
 
-## Feature
+### Swirl Texture
 
-1. Implementation detail.
-1. Implementation detail.
-1. Implementation detail.
+### Swirl Particle System
 
-![Gif](./docs/1.gif)
-![Gif](./docs/1.gif)
-
----
-
-## Implementation explained
-
-1. **Step**
-
-   1. Sub Step.
-   1. Sub Step.
-
-1. **Step**
-
-   1. Sub Step.
-   1. Sub Step.
+### Rotating Particles VFX Graph
