@@ -7,10 +7,10 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 ### Table of Content
 
 - [Implementation](#implementation)
-  - [Swirl Distortion](#swirl-distortion)
+  - [Twirl Distortion](#twirl-distortion)
   - [Fresnel Sphere](#fresnel-sphere)
-  - [Swirl Texture](#swirl-texture)
-  - [Swirl Particle System](#swirl-particle-system)
+  - [Twirl Texture](#twirl-texture)
+  - [Twirl Particle System](#twirl-particle-system)
   - [Rotating Particles VFX Graph](#rotating-particles-vfx-graph)
 
 ### References
@@ -21,10 +21,10 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 
 ## Implementation
 
-### Swirl Distortion
+### Twirl Distortion
 
-- Make sure the camera is using an **Opaque Color Texture**, it can also need to be configured in the **Scriptable Render Pipeline Asset**.
-- This makes the camera to write the current Color Buffer into a texture that can later be accessed by the Shaders.
+- Make sure the **Camera** is using an **Opaque Color Texture**, it can also need to be configured in the **Scriptable Render Pipeline Asset**.
+- This makes the **Camera** to write the current **Color Buffer** into a texture that can later be accessed by the Shaders.
 
 ![Picture](./docs/1.jpg)
 ![Picture](./docs/2.jpg)
@@ -32,7 +32,7 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 - Use the **Screen Color** to access the **Color Buffer** of the **Camera**, similar to what **Grab Pass** would do in a custom shader using **Shader Lab**.
 - Use the **Screen Position** to sample this texture and obtain the corresponding color pixel in it.
 - If left unchanged, this results in a perfectly transparent object, if we distort these coordinates, we generate the distortion effect.
-- Use a **Noise Node** to generate a texture that can be added to the Screen Position coordinates to distort them.
+- Use a **Noise** Node to generate a texture that can be added to the Screen Position coordinates to distort them.
 - **Remap** the value 0,1 to 0,100 to parametrize the scale of the Noise Texture.
 - **Remap** the value 0,1 to 15,1 to parametrize the power of the Noise Texture.
 - **Multiply** the Noise texture by a **Mask Texture**, to restrain the distortion to a circular shape (or any other desired shape).
@@ -41,10 +41,14 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 ![Picture](./docs/3.jpg)
 ![Picture](./docs/4.jpg)
 
+- Use a **Twirl** Node to distort the UV coordinates used to generate the Noise Texture.
+
+![Picture](./docs/5.jpg)
+
 ### Fresnel Sphere
 
-### Swirl Texture
+### Twirl Texture
 
-### Swirl Particle System
+### Twirl Particle System
 
 ### Rotating Particles VFX Graph
