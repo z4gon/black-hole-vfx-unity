@@ -45,6 +45,11 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 
 ![Picture](./docs/5.jpg)
 
+- Use a **Rotation** Node to rotate the Twirl transformation of the UVs.
+- Use the **Time** multiplied by a **Velocity** parameter to animate the Twirl distortion over time.
+
+![Picture](./docs/6.jpg)
+
 ### Fresnel Sphere
 
 ### Twirl Texture
