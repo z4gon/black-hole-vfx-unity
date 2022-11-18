@@ -60,6 +60,20 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 
 ### Twirl Texture
 
+- Draw two lines with glow effect, and use the **twirl filter** in **Affinity** **Photo** to distort them.
+
+![Picture](./docs/9.jpg)
+
 ### Twirl Particle System
+
+- Add a **Shuriken** **Particle System** object.
+- Create a **Material** for the Particles using the **Universal Render Pipeline/Particles/Unlit** Shader.
+- Set some **Emission** color with **HDR** intensity, so that the Post Processing generates **Glow** out of it with the **Bloom** effect.
+- Set the **Particle System** to burst individual particles using the twirl texture.
+- Make the particles **fade in** with **Color over Lifetime**.
+- Make the particles **rotate** with **Rotation over Lifetime**.
+- Make the particles spawn with random rotation and size, between two given numbers.
+
+![Picture](./docs/10.jpg)
 
 ### Rotating Particles VFX Graph
