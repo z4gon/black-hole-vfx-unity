@@ -16,6 +16,8 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 ### References
 
 - [Black Hole VFX tutorial by Gabriel Aguiar](https://www.youtube.com/watch?v=FlE8e1JwVzs)
+- [Space Texture](https://unsplash.com/photos/-hI5dX2ObAs)
+- [CubeMap Generator](https://jonaszeitler.se/cubemap-toastmap-generator/)
 
 ## Implementation
 
