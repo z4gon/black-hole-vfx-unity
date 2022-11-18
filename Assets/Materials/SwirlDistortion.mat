@@ -108,8 +108,8 @@ Material:
     - _DistortionScale: 0.418
     - _DistortionStrenght: 0.828
     - _DistortionTwirlStrenght: 6.64
-    - _Distortion_Scale: 0.418
-    - _Distortion_Strenght: 0.803
+    - _Distortion_Scale: 0.385
+    - _Distortion_Strenght: 0.59
     - _Distortion_Twirl_Strenght: 9.27
     - _DstBlend: 0
     - _EnvironmentReflections: 1
@@ -127,8 +127,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Twirl_Rotation_Velocity: -0.85
-    - _Twirl_Strenght: 13
+    - _Twirl_Rotation_Velocity: -0.82
+    - _Twirl_Strenght: 11.2
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

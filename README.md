@@ -52,6 +52,12 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 
 ### Fresnel Sphere
 
+- Create a simple **Fresnel** effect and parametrize the **power**.
+- Parametrize the **color** in **HDR** mode, so we can set intensity and generate a **Glow** effect with the **Bloom** post processing.
+
+![Picture](./docs/7.jpg)
+![Picture](./docs/8.jpg)
+
 ### Twirl Texture
 
 ### Twirl Particle System
