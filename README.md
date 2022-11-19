@@ -77,3 +77,43 @@ Implemented with Shader Graph, Shuriken Particle System and VFX Graph for the UR
 ![Picture](./docs/10.jpg)
 
 ### Rotating Particles VFX Graph
+
+- Install the **Visual Effects Graph** package.
+
+![Picture](./docs/11.jpg)
+
+- Increase the total **capacity** and **spawn rate** of the VFX.
+- Set an **initial size** randomly between two values.
+
+![Picture](./docs/12.jpg)
+![Picture](./docs/13.jpg)
+
+- Configure the **ouput particle quad** renderer to use the **default particle texture**.
+- Make the **blend** mode **additive**.
+- Set the **color over life** to **fade in** and **out**.
+
+![Picture](./docs/14.jpg)
+
+- Set the **size over life** for particles in the update particle section.
+
+![Picture](./docs/15.jpg)
+
+- Initialize the **position** of the particles in a sphere shape.
+
+![Picture](./docs/16.jpg)
+
+- Make the particles **conform to a sphere**, to simulate the attraction of the black hole gravity.
+
+![Picture](./docs/17.jpg)
+
+- Make the particles initialize in a **disc shape**, by setting the position again, using the current position for X and Z axises, but setting Y to a random range.
+
+![Picture](./docs/18.jpg)
+
+- **Rotate** the particles along the Y axis during update.
+
+![Picture](./docs/19.jpg)
+
+- Set the **intensity** of the **HDR** color of the particles, to generate **Glow** through the **Bloom** post processing effect.
+
+![Picture](./docs/20.jpg)
